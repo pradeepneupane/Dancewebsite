@@ -1,0 +1,19 @@
+{
+  "name": "pradeep-dance-acedemy",
+  "version": "1.0.0",
+  "description": "This is a popular dance acedemy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pradeep",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4",
+    "parser": "^0.1.4",
+    "pug": "^3.0.2"
+  }
+}

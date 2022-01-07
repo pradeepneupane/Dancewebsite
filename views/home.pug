@@ -1,0 +1,45 @@
+extends base.pug 
+block scripts
+  script(src='/static/index.js')
+block style 
+  style
+    include ../static/style.css
+block content
+    section#introSection 
+        div welcome to pradeep Dance Academy 
+        div.small Eat Dance sleep Repeat 
+
+    section#missionSection
+        h2 Our mission
+        div.card
+          h3 Dance Perfection
+          div.card-box 
+             div.card-box
+                div.card-img
+                    img(src="/static/image/kt.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card 
+          h3 Dance as you like
+           div.card-box 
+             div.card-box
+                div.card-img
+                    img(src="/static/image/kt.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card 
+          h3 Expert Teaching 
+           div.card-box 
+             div.card-box
+                div.card-img
+                    img(src="/static/image/kt.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+    section#sponsorsSection 
+        h2 our Sponsors
+        div#sponsors 
+          img(src="/static/image/apple.png", alt="sponsors image", Class="spImage")
+          img(src="/static/image/microsoft.png", alt="sponsors image", Class="spImage")
+          img(src="/static/image/hp.png", alt="sponsors image", Class="spImage")
+          img(src="/static/image/skype.png", alt="sponsors image", Class="spImage")
